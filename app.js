@@ -1,3 +1,15 @@
+var wins1 = 0
+var wins2 = 0
+function reset()
+{
+   wins1 = 0;
+   document.querySelector(".counter p").textContent = 'Player 1 wins: ' + wins1;
+   wins2 = 0;
+   document.querySelectorAll('p')[1].textContent = 'Player 2 wins: ' + wins2;
+   return wins1, wins2;
+
+}
+
 function roll(){
     let dice1 = Math.floor((Math.random() * 6) + 1)
     let dice2 = Math.floor((Math.random() * 6) + 1)
