@@ -1,16 +1,10 @@
 body{
-    margin: 0%;
-    padding: 0%;
-    background-color: #232db9ef;
+    background-color: #00000092;
 }
 
 p{
     color: aliceblue;
-    font-family: "Tangerine", cursive;
-}
-
-.counterContainer p, button p{
-    font-size: 35px;
+    font-family: "Calligraffitti", 'serif';
 }
 
 /* CSS Styling for head element */
@@ -22,10 +16,10 @@ margin: 0%;
 }
 
 .heading h1{
-    font-size: 95px;
+    color: #14c084;
+    font-size: 5rem;
     margin: 0%;
-    font-family: "Tangerine", cursive;
-    color: aliceblue;
+    font-family: "Calligraffitti", 'serif';
 }
 
 
@@ -38,6 +32,14 @@ margin: 0%;
 
 .counter{
     margin-right: 5%;
+}
+
+.counter button{
+   font-size: 18px;
+}
+
+.counter p{
+    font-size: 1.25rem;
 }
 
 /* CSS Styling for Dice elements */
@@ -58,22 +60,24 @@ margin: 0%;
     margin-right: 5%;
 }
 .dice p{
-    font-size: 55px;
+    font-size: 2.5rem;
 }
 
 img{
-    height: 200px;
+    width: 75%;
 }
 
 .btn{
     display: flex;
     justify-content: center;
+    margin-top: 3%;
 }
 button{
-    background-color: black;
-    padding: 15px;
+    color: aliceblue;
+    font-size: 2rem;
+    background-color: #14c084; 
     border: none;
-    padding: none;
-    margin-top: 3%;
+    margin: 0%;
+    
 }
 
