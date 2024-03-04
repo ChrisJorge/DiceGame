@@ -21,8 +21,6 @@ justify-content: center;
 /* CSS Styling for Dice elements */
 
 .diceContainer{
-    height: 50vh;
-    border: solid black;
     display: flex;
     justify-content: center;
 }
@@ -41,3 +39,15 @@ justify-content: center;
     font-size: 55px;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    font-size: 35px;
+    padding: 15px;
+    border: none;
+    padding: none;
+    margin-top: 3%;
+}
