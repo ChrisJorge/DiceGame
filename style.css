@@ -8,14 +8,36 @@ p{
     color: aliceblue;
     font-family: "Tangerine", cursive;
 }
+
+.counterContainer p, button p{
+    font-size: 35px;
+}
+
 /* CSS Styling for head element */
 .heading{
 display: flex;
 justify-content: center;
+padding: 0%;
+margin: 0%;
 }
 
-.heading p{
-    font-size: 105px;
+.heading h1{
+    font-size: 95px;
+    margin: 0%;
+    font-family: "Tangerine", cursive;
+    color: aliceblue;
+}
+
+
+/* CSS For counter */
+.counterContainer{
+    display: flex;
+    justify-content: right;
+
+}
+
+.counter{
+    margin-right: 5%;
 }
 
 /* CSS Styling for Dice elements */
@@ -39,15 +61,19 @@ justify-content: center;
     font-size: 55px;
 }
 
+img{
+    height: 200px;
+}
+
 .btn{
     display: flex;
     justify-content: center;
 }
 button{
     background-color: black;
-    font-size: 35px;
     padding: 15px;
     border: none;
     padding: none;
     margin-top: 3%;
 }
+
