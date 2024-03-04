@@ -3,7 +3,7 @@ var wins2 = 0
 function reset()
 {
    wins1 = 0;
-   document.querySelector(".counter p").textContent = 'Player 1 wins: ' + wins1;
+   document.querySelectorAll('p')[0].textContent = 'Player 1 wins: ' + wins1;
    wins2 = 0;
    document.querySelectorAll('p')[1].textContent = 'Player 2 wins: ' + wins2;
    return wins1, wins2;
@@ -69,5 +69,24 @@ function roll(){
             break; 
 
     }
-    
+    if (dice1 > dice2)
+{
+    console.log('One = ' + dice1 + 'Two = ' + dice2)
+    document.querySelector('h1').textContent = 'Player One Wins!!';
+    wins1 ++;
+    document.querySelector(".counter p").textContent = 'Player 1 wins: ' + wins1;
+
+}
+else if (dice2 > dice1)
+{
+    console.log('One = ' + dice1 + 'Two = ' + 2)
+    document.querySelector('h1').textContent = 'Player Two Wins!!';
+    wins2 ++;
+    document.querySelectorAll('p')[1].textContent = 'Player 2 wins: ' + wins2;
+}
+else
+{
+    console.log('One = ' + dice1 + 'Two = ' + dice2)
+    document.querySelector('h1').textContent = 'Tie!!';
+}
 }
