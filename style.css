@@ -24,18 +24,20 @@ justify-content: center;
     height: 50vh;
     border: solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
-.dice1{
-    border: solid yellow;
+.dice{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dice1 p{
+.dice1{
+    margin-right: 5%;
+}
+.dice p{
     font-size: 55px;
 }
 
