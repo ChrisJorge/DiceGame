@@ -29,5 +29,33 @@ function roll(){
             break; 
 
     }
+
+    switch (dice2)
+    {
+        case 1:
+            document.getElementsByTagName('img')[1].setAttribute('src', "./images/dice1.png");
+            break;
+
+        case 2:
+            document.getElementsByTagName('img')[1].setAttribute('src', "./images/dice2.png");
+            break;
+        
+        case 3:
+            document.getElementsByTagName('img')[1].setAttribute('src', "./images/dice3.png");
+            break;
+        
+        case 4:
+            document.getElementsByTagName('img')[1].setAttribute('src', "./images/dice4.png");
+            break; 
+        
+        case 5:
+            document.getElementsByTagName('img')[1].setAttribute('src', "./images/dice5.png");
+            break;
+
+        case 6:
+            document.getElementsByTagName('img')[1].setAttribute('src', "./images/dice6.png")
+            break; 
+
+    }
     
 }
