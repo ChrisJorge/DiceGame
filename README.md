@@ -1,5 +1,7 @@
 <h1>Dice Game</h1>
 The Dice Game is a simple web-based game where the user clicks the roll button. The website then rolls the two dice and changes the image based on the roll number and outputs who won. The website keeps a score of how many times each player has won, and the score can be reset by clicking the reset button.
+<h1>Functionality</h1>
+This project utilizes query selector to target images and text and dynamically change them based on randomly generated numbers to determine which dice is higher. 
 <h1>Languages Used</h1>
 <ul>
   <li>HTML</li>
